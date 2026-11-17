@@ -1,0 +1,23 @@
+# build output
+build/
+compile_commands.json
+
+# local Python env
+.venv/
+__pycache__/
+
+# run outputs (logs / traces)
+*.csv
+*.log
+trace*.txt
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# local-only: early moteus Python scripts and the first chat handoff (superseded by the C++ driver)
+HANDOFF_PROMPT.md
+query.py
+rate_test.py
+spin.py
